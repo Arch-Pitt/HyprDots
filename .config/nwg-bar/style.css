@@ -1,0 +1,43 @@
+* {
+    font-family: JetBrainsMono Nerd Font, FontAwesome;
+    font-size: 14px;
+}
+
+window {
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 8px 10px;
+}
+
+#inner-box {
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px 16px;
+}
+
+button {
+    background: transparent;
+    color: #bbbbbb;
+    border: none;
+    box-shadow: none;
+    padding: 6px 14px;
+    margin: 2px 4px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+button:checked,
+button.active {
+    background: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+}
+
+image {
+    margin: 0 4px;
+}
