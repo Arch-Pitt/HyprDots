@@ -14,6 +14,18 @@ The goal is to offer a clean, fast, and usable desktop with minimal manual confi
 * Flatpak support with Flathub enabled
 * Basic firewall and network configuration
 
+## Images
+
+https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/workspace.png
+
+https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/terminal.png
+
+https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png
+
+https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/nwg-bar.png
+
+https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/gtktheme.png
+
 ## Installation
 
 This setup is intended for Arch Linux or Arch-based distributions.
