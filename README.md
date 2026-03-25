@@ -16,15 +16,15 @@ The goal is to offer a clean, fast, and usable desktop with minimal manual confi
 
 ## Images
 
-https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/workspace.png
+![Workspace](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/workspace.png)
 
-https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/terminal.png
+![Terminal](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/terminal.png)
 
-https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png
+![Rofi](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png)
 
-https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/nwg-bar.png
+![NWG Bar](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/nwg-bar.png)
 
-https://github.com/Arch-Pitt/HyprDots/blob/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/gtktheme.png
+![GTK Theme](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/gtktheme.png)
 
 ## Installation
 
