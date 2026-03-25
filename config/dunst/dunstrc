@@ -1,0 +1,31 @@
+[global]
+font = JetBrainsMono Nerd Font 10
+origin = top-right
+offset = 10x10
+padding = 10
+frame_width = 2
+corner_radius = 5
+
+background = "#000000cc"
+foreground = "#ffffff"
+frame_color = "#444444aa"
+
+background = "#000000cc"
+foreground = "#ffffff"
+frame_color = "#444444aa"
+
+
+[urgency_low]
+background = "#000000cc"
+foreground = "#aaaaaa"
+frame_color = "#444444aa"
+
+[urgency_normal]
+background = "#000000cc"
+foreground = "#ffffff"
+frame_color = "#444444aa"
+
+[urgency_critical]
+background = "#000000cc"
+foreground = "#ffffff"
+frame_color = "#444444aa"

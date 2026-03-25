@@ -29,7 +29,8 @@ sudo pacman -S --needed --noconfirm \
   swww \
   nwg-bar \
   nwg-look \
-  hyprshot
+  hyprshot \
+  dunst \
 
 echo "INSTALLING PORTALS"
 sudo pacman -S --needed --noconfirm \
@@ -73,6 +74,31 @@ sudo pacman -S --needed --noconfirm flatpak
 
 echo "ADDING FLATHUB REPOSITORY"
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+echo "CREATING USER DIRECTORIES"
+mkdir -p \
+  ~/Documents \
+  ~/Downloads \
+  ~/Games \
+  ~/Music \
+  ~/Public \
+  ~/Templates \
+  ~/Videos \
+  ~/.themes \
+  ~/.config
+
+echo "COPYING USER FILES"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+if [ -d "$SCRIPT_DIR/Pictures" ]; then
+  echo "Copying Pictures..."
+  cp -rn "$SCRIPT_DIR/Pictures" ~/
+fi
+
+if [ -d "$SCRIPT_DIR/configs" ]; then
+  echo "Copying configs..."
+  cp -rn "$SCRIPT_DIR/configs/"* ~/.config/
+fi
 
 echo "ENABLING SERVICES"
 sudo systemctl enable NetworkManager
