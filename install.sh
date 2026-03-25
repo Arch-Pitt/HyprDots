@@ -3,6 +3,8 @@
 set -e
 
 echo "SYSTEM UPDATE"
+
+echo "SYSTEM UPDATE"
 sudo pacman -Syu --noconfirm
 
 echo "INSTALLING FONTS"
@@ -37,7 +39,7 @@ sudo pacman -S --needed --noconfirm \
   xdg-desktop-portal \
   xdg-desktop-portal-hyprland
 
-echo "INSTALLING SYSTEM UTILS"
+echo "INSTALLING SYSTEM UTILITIES"
 sudo pacman -S --needed --noconfirm \
   fastfetch \
   vim \
@@ -55,7 +57,7 @@ sudo pacman -S --needed --noconfirm \
   ufw \
   polkit-gnome
 
-echo "INSTALLING APPS"
+echo "INSTALLING APPLICATIONS"
 sudo pacman -S --needed --noconfirm \
   firefox \
   obs-studio \
@@ -87,25 +89,6 @@ mkdir -p \
   ~/.themes \
   ~/.config
 
-echo "COPYING USER FILES"
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-if [ -d "$SCRIPT_DIR/Pictures" ]; then
-  echo "Copying Pictures..."
-  cp -rn "$SCRIPT_DIR/Pictures" ~/
-fi
-
-if [ -d "$SCRIPT_DIR/configs" ]; then
-  echo "Copying configs..."
-  cp -rn "$SCRIPT_DIR/configs/"* ~/.config/
-fi
-
-if [ -d "$SCRIPT_DIR/themes" ]; then
-  echo "Copying themes..."
-  mkdir -p ~/.themes
-  cp -rn "$SCRIPT_DIR/themes/"* ~/.themes/
-fi
-
 echo "ENABLING SERVICES"
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
@@ -113,4 +96,4 @@ sudo systemctl start NetworkManager
 sudo systemctl enable ufw
 sudo systemctl start ufw
 
-echo "SETUP COMPLETE!"
+echo "DEPENDENCIES ARE INSTALLED. PLEASE COPY CONFIG FOLDERS TO THE APPROPRIATE DIRECTORIES."
