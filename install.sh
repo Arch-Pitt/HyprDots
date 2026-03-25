@@ -30,7 +30,7 @@ sudo pacman -S --needed --noconfirm \
   nwg-bar \
   nwg-look \
   hyprshot \
-  dunst \
+  dunst
 
 echo "INSTALLING PORTALS"
 sudo pacman -S --needed --noconfirm \
@@ -98,6 +98,12 @@ fi
 if [ -d "$SCRIPT_DIR/configs" ]; then
   echo "Copying configs..."
   cp -rn "$SCRIPT_DIR/configs/"* ~/.config/
+fi
+
+if [ -d "$SCRIPT_DIR/themes" ]; then
+  echo "Copying themes..."
+  mkdir -p ~/.themes
+  cp -rn "$SCRIPT_DIR/themes/"* ~/.themes/
 fi
 
 echo "ENABLING SERVICES"
