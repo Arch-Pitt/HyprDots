@@ -150,7 +150,7 @@ Creates:
 
 ## Post-installation
 
-After running the script, you need to manually copy the configuration files to their respective directories inside, like `~/.config`.
+After running the script, you need to manually copy the configuration files to their respective directories, like `~/.config`.
 
 ## Notes
 
