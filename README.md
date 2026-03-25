@@ -1,7 +1,5 @@
 # HyprDots
 
-## Overview
-
 Personal dotfiles for a minimal and functional Hyprland setup on Arch Linux.
 
 This repository provides a simple Hyprland-based environment along with some essential tools, applications, and system utilities.
