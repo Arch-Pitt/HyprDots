@@ -148,7 +148,11 @@ Creates:
 
 ## Post-installation
 
-After running the script, you need to manually copy the configuration files to their respective directories, like `~/.config`.
+After running the script, most files will be automatically installed and placed in their respective directories (such as ~/.config, ~/.themes, and ~/Pictures).
+
+To start your system properly, reboot your machine using `sudo reboot`, then log in through a TTY. After logging in, start a Hyprland session by running `Hyprland` or `start-hyprland`.
+
+Make sure all components are running correctly (Waybar, Dunst, etc.). If needed, you can manually adjust or overwrite configuration files to better fit your preferences.
 
 ## Notes
 
