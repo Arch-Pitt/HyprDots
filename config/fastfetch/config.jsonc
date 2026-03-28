@@ -1,12 +1,14 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "source": "~/.config/fastfetch/logos/archsmall.txt",
+    "source": "~/.config/fastfetch/logos/logo.txt",
     "padding": {
+      "top": 1,
       "left": 1
     }
   },
   "modules": [
+    "break",
     "title",
     "separator",
     "os",
