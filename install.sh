@@ -132,4 +132,4 @@ sudo systemctl start NetworkManager
 sudo systemctl enable ufw
 sudo systemctl start ufw
 
-echo "DEPENDENCIES ARE INSTALLED. PLEASE COPY CONFIG FOLDERS TO THE APPROPRIATE DIRECTORIES."
+echo "DEPENDENCIES ARE INSTALLED. PLEASE RESTART YOUR SYSTEM"
