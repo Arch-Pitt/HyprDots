@@ -31,6 +31,7 @@ sudo pacman -S --needed --noconfirm \
   nwg-look \
   hyprshot \
   hyprlock \
+  hypridle \
   dunst
 
 echo "INSTALLING PORTALS"
