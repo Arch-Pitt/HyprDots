@@ -90,41 +90,6 @@ mkdir -p \
   ~/.config \
   ~/Pictures
 
-echo "COPYING USER FILES"
-
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-if [ -d "$SCRIPT_DIR/configs" ]; then
-  echo "Copying configs..."
-  cp -rn "$SCRIPT_DIR/configs/"* ~/.config/
-fi
-
-if [ -d "$SCRIPT_DIR/themes" ]; then
-  echo "Copying themes..."
-  cp -rn "$SCRIPT_DIR/themes/"* ~/.themes/
-fi
-
-if [ -d "$SCRIPT_DIR/Pictures" ]; then
-  echo "Copying Pictures..."
-  cp -rn "$SCRIPT_DIR/Pictures/"* ~/Pictures/
-fi
-
-echo "SETTING WALLPAPER"
-
-WALLPAPER="$HOME/Pictures/Wallpapers/DarkFlow.jpg"
-
-if [ -f "$WALLPAPER" ]; then
-  if pgrep -x "Hyprland" > /dev/null; then
-    swww init
-    sleep 1
-    swww img "$WALLPAPER"
-  else
-    echo "Hyprland not running. Wallpaper will be applied on login."
-  fi
-else
-  echo "Wallpaper not found: $WALLPAPER"
-fi
-
 echo "ENABLING SERVICES"
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager

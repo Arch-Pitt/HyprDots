@@ -98,6 +98,8 @@ Installs:
 * nwg-bar
 * nwg-look
 * hyprshot
+* hypridle
+* hyprlock
 * dunst
 
 ### Portals
@@ -176,24 +178,34 @@ Enables:
 
 ## Post-installation
 
-After installation:
+After the installation script finishes, you need to manually move the configuration files to the correct directories.
+
+- Move everything inside the `config` folder to `~/.config`
+- Move everything inside the `themes` folder to `~/.themes`
+- Move everything inside the `pictures` folder to your home directory (`~/`)
+
+You can do this with:
+
+```bash
+cp -r config/* ~/.config/
+cp -r themes/* ~/.themes/
+cp -r pictures/* ~/
+```
+---
+
+## Final Steps
 
 1. Reboot the system:
-
    ```bash
    sudo reboot
    ```
 
-2. Log in through a TTY
+2. Log in through a TTY (Ctrl + Alt + F2, for example)
 
 3. Start Hyprland:
-
    ```bash
    start-hyprland
    ```
-
-Make sure all services are running properly (Waybar, Dunst, etc.).
-
 ---
 
 ## Notes
