@@ -33,7 +33,7 @@ This setup is intended for Arch Linux or Arch-based distributions.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/hyprdots.git
+git clone https://github.com/Arch-Pitt/hyprdots.git
 cd hyprdots
 ```
 
