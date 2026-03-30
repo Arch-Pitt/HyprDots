@@ -1,138 +1,152 @@
 # HyprDots
 
-Personal dotfiles for a minimal and functional Hyprland setup on Arch Linux.
+Personal dotfiles for a minimal, clean, and functional Hyprland setup on Arch Linux.
 
-This repository provides a simple Hyprland-based environment along with some essential tools, applications, and system utilities.
+This repository provides a ready-to-use Wayland environment with a focus on simplicity, performance, and usability, requiring minimal manual configuration.
 
-The goal is to offer a clean, fast, and usable desktop with minimal manual configuration.
+---
 
 ## Features
 
-* Hyprland Wayland environment
-* Preconfigured terminal and bar setup
-* Common system utilities and applications
-* Flatpak support with Flathub enabled
-* Basic firewall and network configuration
+* Hyprland Wayland compositor
+* Preconfigured terminal, bar, and launcher
+* Minimal and clean UI/UX
+* Flatpak with Flathub enabled
+* Basic firewall and networking setup
+* Ready-to-use desktop environment
 
-## Images
+---
+
+## Preview
+
+### Workspace
 
 ![Workspace](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/workspace.png)
 
+### Terminal
+
 ![Terminal](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/terminal.png)
+
+### Rofi
 
 ![Rofi](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png)
 
+### NWG Bar
+
 ![NWG Bar](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/nwg-bar.png)
+
+### GTK Theme
 
 ![GTK Theme](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/gtktheme.png)
 
+---
+
 ## Installation
 
-This setup is intended for Arch Linux or Arch-based distributions.
+> ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only**
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Arch-Pitt/hyprdots.git
-cd hyprdots
+git clone https://github.com/Arch-Pitt/HyprDots.git
+cd HyprDots
 ```
 
-Make the script executable and run it:
+Make the installer executable and run it:
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-## What the script does
+---
+
+## What the install script does
 
 ### System update
 
-* Updates all system packages using pacman
+* Updates all system packages using `pacman`
 
 ### Fonts
 
-* Installs:
+Installs:
 
-  * ttf-dejavu
-  * noto-fonts
-  * noto-fonts-emoji
-  * ttf-jetbrains-mono-nerd
+* ttf-dejavu
+* noto-fonts
+* noto-fonts-emoji
+* ttf-jetbrains-mono-nerd
 
 ### Media support
 
-* Installs codecs and tools:
+Installs:
 
-  * gst-libav
-  * gst-plugins-bad
-  * gst-plugins-ugly
-  * ffmpeg
-  * gstreamer
+* gst-libav
+* gst-plugins-bad
+* gst-plugins-ugly
+* ffmpeg
+* gstreamer
 
 ### Hyprland ecosystem
 
-* Installs:
+Installs:
 
-  * hyprland
-  * kitty
-  * waybar
-  * rofi-wayland
-  * swww
-  * nwg-bar
-  * nwg-look
-  * hyprshot
-  * dunst
+* hyprland
+* kitty
+* waybar
+* rofi-wayland
+* swww
+* nwg-bar
+* nwg-look
+* hyprshot
+* dunst
 
 ### Portals
 
-* Installs:
+Installs:
 
-  * xdg-desktop-portal
-  * xdg-desktop-portal-hyprland
+* xdg-desktop-portal
+* xdg-desktop-portal-hyprland
 
 ### System utilities
 
-* Installs:
+Installs:
 
-  * fastfetch
-  * vim
-  * nano
-  * unzip
-  * unrar
-  * zip
-  * p7zip
-  * nemo
-  * btop
+* fastfetch
+* vim
+* nano
+* unzip / zip / unrar / p7zip
+* nemo
+* btop
 
 ### Network and system
 
-* Installs and enables:
+Installs and enables:
 
-  * networkmanager
-  * ufw
-  * polkit-gnome
+* NetworkManager
+* ufw
+* polkit-gnome
 
 ### Applications
 
-* Installs:
+Installs:
 
-  * firefox
-  * obs-studio
-  * pavucontrol
-  * engrampa
+* firefox
+* obs-studio
+* pavucontrol
+* engrampa
 
 ### Wine support
 
-* Installs:
+Installs:
 
-  * wine
-  * wine-gecko
-  * wine-mono
-  * winetricks
+* wine
+* wine-gecko
+* wine-mono
+* winetricks
 
 ### Flatpak
 
-* Installs flatpak
+* Installs Flatpak
 * Adds Flathub repository
 
 ### User directories
@@ -153,21 +167,41 @@ Creates:
 
 ### Services
 
-* Enables and starts:
+Enables:
 
-  * NetworkManager
-  * ufw
+* NetworkManager
+* ufw
+
+---
 
 ## Post-installation
 
-After running the script, most files will be automatically installed and placed in their respective directories (such as ~/.config, ~/.themes, and ~/Pictures).
+After installation:
 
-To start your system properly, reboot your machine using `sudo reboot`, then log in through a TTY. After logging in, start a Hyprland session by running `Hyprland` or `start-hyprland`.
+1. Reboot the system:
 
-Make sure all components are running correctly (Waybar, Dunst, etc.). If needed, you can manually adjust or overwrite configuration files to better fit your preferences.
+   ```bash
+   sudo reboot
+   ```
+
+2. Log in through a TTY
+
+3. Start Hyprland:
+
+   ```bash
+   Hyprland
+   ```
+
+Make sure all services are running properly (Waybar, Dunst, etc.).
+
+---
 
 ## Notes
 
-* This setup assumes a clean Arch installation
-* Some users may want to install an AUR helper such as `yay`
-* You are free to modify the script to fit your needs
+* This setup assumes a **clean Arch installation**
+* You may want to install an AUR helper like:
+
+  ```bash
+  yay
+  ```
+* Feel free to modify the script to fit your needs
