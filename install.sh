@@ -97,4 +97,4 @@ sudo systemctl start NetworkManager
 sudo systemctl enable ufw
 sudo systemctl start ufw
 
-echo "DEPENDENCIES ARE INSTALLED. PLEASE RESTART YOUR SYSTEM"
+echo "DEPENDENCIES ARE INSTALLED. PLEASE FOLLOW THE POST-INSTALLATION STEPS TO COMPLETE THE SETUP"
