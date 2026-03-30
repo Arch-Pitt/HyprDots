@@ -189,7 +189,7 @@ After installation:
 3. Start Hyprland:
 
    ```bash
-   Hyprland
+   start-yprland
    ```
 
 Make sure all services are running properly (Waybar, Dunst, etc.).
