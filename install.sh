@@ -77,6 +77,15 @@ sudo pacman -S --needed --noconfirm flatpak
 echo "ADDING FLATHUB REPOSITORY"
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+echo "INSTALLING YAY (AUR HELPER)"
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+
+makepkg -si --noconfirm
+
+cd ~
+
 echo "CREATING USER DIRECTORIES"
 mkdir -p \
   ~/Documents \

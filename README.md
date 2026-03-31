@@ -45,6 +45,12 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 > ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only**
 
+Install dependencies:
+
+```bash
+sudo pacman -S --needed git base-devel
+```
+
 Clone the repository:
 
 ```bash
@@ -211,9 +217,4 @@ cp -r pictures/* ~/
 ## Notes
 
 * This setup assumes a **clean Arch installation**
-* You may want to install an AUR helper like:
-
-  ```bash
-  yay
-  ```
 * Feel free to modify the script to fit your needs
