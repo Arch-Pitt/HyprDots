@@ -2,16 +2,18 @@
 
 Personal dotfiles for a minimal, clean, and functional Hyprland setup on Arch Linux.
 
-This repository provides a ready-to-use Wayland environment with a focus on simplicity, performance, and usability, requiring minimal manual configuration.
+This repository provides a ready-to-use Wayland environment with a focus on simplicity and usability, requiring minimal manual configuration.
 
 ---
 
 ## Features
 
 * Hyprland Wayland compositor
-* Preconfigured terminal, bar, and launcher
+* Lockscreen with **hyprlock**
+* Preconfigured **kitty**, **waybar**, and **rofi**
+* Wallpaper launcher with **rofi** and **awwww**
 * Minimal and clean UI/UX
-* Flatpak with Flathub enabled
+* **Flatpak** with Flathub enabled
 * Basic firewall and networking setup
 * Ready-to-use desktop environment
 
@@ -30,6 +32,10 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ### Rofi
 
 ![Rofi](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png)
+
+### Wallpicker
+
+![Wallpicker](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png)
 
 ### NWG Bar
 
@@ -197,6 +203,13 @@ cp -r config/* ~/.config/
 cp -r themes/* ~/.themes/
 cp -r pictures/* ~/
 ```
+
+Before using the wallpaper launcher, ensure the script has execute permissions.
+
+```bash
+chmod +x ~/.config/rofi/wallpicker.sh
+```
+
 ---
 
 ## Final Steps

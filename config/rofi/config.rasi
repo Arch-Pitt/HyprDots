@@ -9,7 +9,7 @@
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
-    alt-color: #111111CC;
+    alt-color: transparent;
     wbg-color: #000000CC;
     w-border: 1px solid;
     w-border-color: rgba(255,255,255,0.05);
@@ -69,7 +69,7 @@ element {
     margin: @g-margin;
     padding: @g-padding;
     border: 0px solid;
-    border-radius: 4px; /* pequeno arredondamento */
+    border-radius: 4px;
     border-color: @b-color;
     background-color: transparent;
     text-color: @fg-color;
