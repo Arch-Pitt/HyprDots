@@ -49,7 +49,10 @@ sudo pacman -S --needed --noconfirm \
   zip \
   p7zip \
   nemo \
-  btop
+  btop \
+  gvfs \
+  gvfs-mtp \
+  android-udev
 
 echo "INSTALLING NETWORK / SYSTEM"
 sudo pacman -S --needed --noconfirm \
