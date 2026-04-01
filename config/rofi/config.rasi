@@ -5,14 +5,14 @@
     b-color: #000000FF;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
-    b-radius: 6px; /* levemente arredondado, igual à waybar */
+    b-radius: 6px;
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
-    alt-color: #111111CC; /* um pouco transparente */
-    wbg-color: #000000CC; /* fundo transparente */
+    alt-color: #111111CC;
+    wbg-color: #000000CC;
     w-border: 1px solid;
-    w-border-color: rgba(255,255,255,0.05); /* mesma borda da waybar */
+    w-border-color: rgba(255,255,255,0.05);
     w-padding: 12px;
 }
 
@@ -52,7 +52,7 @@ inputbar {
 }
 
 entry {
-    placeholder: "Search Apps";
+    placeholder: "Search";
     text-color: @fg-color;
     placeholder-color: @fgp-color;
 }
