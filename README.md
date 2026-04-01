@@ -35,7 +35,8 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ### Wallpicker
 
-![Wallpicker](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/wallpicker.gif)
+![Wallpicker](https://github.com/Arch-Pitt/HyprDots/blob/5e03303055ec8bfe84b5b4ac847db9604bcc6fbb/.ignore/wallpicker.gif)
+
 
 ### NWG Bar
 
