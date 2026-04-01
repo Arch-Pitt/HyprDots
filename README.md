@@ -8,7 +8,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ## Features
 
-* Hyprland Wayland compositor
+* **Hyprland** Wayland compositor
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, and **rofi**
 * Wallpaper launcher with **rofi** and **awwww**
@@ -35,7 +35,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ### Wallpicker
 
-![Wallpicker](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/wallpicker.mp4)
+![Wallpicker](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/wallpicker.gif)
 
 ### NWG Bar
 
@@ -131,6 +131,9 @@ Installs:
 * unzip / zip / unrar / p7zip
 * nemo
 * btop
+* gvfs
+* gvfs-mtp
+* android-udev
 
 ### Network and system
 
@@ -185,6 +188,46 @@ Enables:
 
 * NetworkManager
 * ufw
+
+---
+
+## Keybindings
+
+> Main modifier: `SUPER` (Windows key)
+
+### General
+
+| Key | Action |
+|-----|--------|
+| SUPER + Q | Open terminal |
+| SUPER + E | Open file manager |
+| SUPER + R | Open app launcher |
+| SUPER + C | Close active window |
+| SUPER + V | Toggle floating |
+| SUPER + F | Fullscreen |
+| SUPER + L | Lock screen |
+| SUPER + P | Power menu |
+| SUPER + SHIFT + W | Wallpaper picker |
+| SUPER + SHIFT + S | Screenshot (region) |
+
+---
+
+### Window Management
+
+| Key | Action |
+|-----|--------|
+| SUPER + ←/→/↑/↓ | Move focus |
+| SUPER + SHIFT + ←/→/↑/↓ | Move window |
+| SUPER + J | Toggle split layout |
+
+---
+
+### Workspaces
+
+| Key | Action |
+|-----|--------|
+| SUPER + 1-0 | Switch workspace |
+| SUPER + SHIFT + 1-0 | Move window to workspace |
 
 ---
 
