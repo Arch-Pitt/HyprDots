@@ -57,8 +57,9 @@ sudo pacman -S --needed --noconfirm \
 echo "INSTALLING NETWORK / SYSTEM"
 sudo pacman -S --needed --noconfirm \
   networkmanager \
+  network-manager-applet \
   ufw \
-  polkit-gnome
+  polkit-gnome \
 
 echo "INSTALLING APPLICATIONS"
 sudo pacman -S --needed --noconfirm \

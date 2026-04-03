@@ -47,10 +47,10 @@
 
     "network": {
         "format-wifi": "{essid} {signalStrength}% ",
-        "format-ethernet": "{ipaddr} ",
+        "format-ethernet": "{ifname} 󰈀",
         "format-disconnected": "No Net ⚠",
         "tooltip-format": "{ifname} via {gwaddr}",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "nm-connection-editor"
     },
 
     "pulseaudio": {
