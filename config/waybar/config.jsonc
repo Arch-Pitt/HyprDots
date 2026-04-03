@@ -18,7 +18,7 @@
     ],
 
     "tray": {
-        "spacing": 8,
+        "spacing": 10,
         "icon-size": 16
     },
 
