@@ -52,7 +52,8 @@ sudo pacman -S --needed --noconfirm \
   btop \
   gvfs \
   gvfs-mtp \
-  android-udev
+  android-udev \
+  gamemode
 
 echo "INSTALLING NETWORK / SYSTEM"
 sudo pacman -S --needed --noconfirm \
@@ -109,5 +110,8 @@ sudo systemctl start NetworkManager
 
 sudo systemctl enable ufw
 sudo systemctl start ufw
+
+systemctl --user daemon-reexec
+systemctl --user enable --now gamemoded
 
 echo "DEPENDENCIES ARE INSTALLED. PLEASE FOLLOW THE POST-INSTALLATION STEPS TO COMPLETE THE SETUP"
