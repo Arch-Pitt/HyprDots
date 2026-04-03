@@ -15,6 +15,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * Minimal and clean UI/UX
 * **Flatpak** with Flathub enabled
 * Basic firewall and networking setup
+* **GameMode** for automatic performance and optimization during gaming sessions
 * Ready-to-use desktop environment
 
 ---
@@ -229,6 +230,37 @@ Enables:
 |-----|--------|
 | SUPER + 1-0 | Switch workspace |
 | SUPER + SHIFT + 1-0 | Move window to workspace |
+
+---
+
+### GameMode
+
+Run applications with improved performance using GameMode:
+
+```bash
+gamemoderun <application>
+```
+GameMode automatically applies system optimizations while the application is running and stops when it closes.
+
+Example:
+
+```bash
+gamemoderun steam
+```
+
+Steam integration:
+
+You can enable GameMode for individual games on Steam:
+
+1. Open Steam
+2. Right-click the game → Properties
+3. In Launch Options, add:
+
+```bash
+gamemoderun %command%
+```
+
+This will automatically run the game with GameMode enabled.
 
 ---
 
