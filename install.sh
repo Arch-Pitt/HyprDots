@@ -65,7 +65,6 @@ sudo pacman -S --needed --noconfirm \
 echo "INSTALLING APPLICATIONS"
 sudo pacman -S --needed --noconfirm \
   firefox \
-  obs-studio \
   pavucontrol \
   engrampa
 

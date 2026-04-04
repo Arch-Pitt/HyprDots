@@ -14,6 +14,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * Wallpaper launcher with **rofi** and **awwww**
 * Minimal and clean UI/UX
 * **Flatpak** with Flathub enabled
+* **Yay** for AUR packages
 * Basic firewall and networking setup
 * **GameMode** for automatic performance and optimization during gaming sessions
 * Ready-to-use desktop environment
@@ -136,6 +137,7 @@ Installs:
 * gvfs
 * gvfs-mtp
 * android-udev
+* gamemode
 
 ### Network and system
 
@@ -150,7 +152,6 @@ Installs and enables:
 Installs:
 
 * firefox
-* obs-studio
 * pavucontrol
 * engrampa
 
@@ -167,6 +168,10 @@ Installs:
 
 * Installs Flatpak
 * Adds Flathub repository
+
+### AUR
+
+* Installs yay
 
 ### User directories
 
