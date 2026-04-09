@@ -67,8 +67,7 @@ sudo pacman -S --needed --noconfirm \
   firefox \
   pavucontrol \
   engrampa \
-  mpv \
-  gimp
+  mpv
 
 echo "INSTALLING WINE"
 sudo pacman -S --needed --noconfirm \

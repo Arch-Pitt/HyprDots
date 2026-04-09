@@ -155,7 +155,6 @@ Installs:
 * pavucontrol
 * engrampa
 * mpv
-* gimp
 
 ### Wine support
 
