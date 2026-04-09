@@ -96,9 +96,7 @@ echo "CREATING USER DIRECTORIES"
 mkdir -p \
   ~/Documents \
   ~/Downloads \
-  ~/Games \
   ~/Music \
-  ~/Public \
   ~/Templates \
   ~/Videos \
   ~/.themes \
