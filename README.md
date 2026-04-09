@@ -154,6 +154,8 @@ Installs:
 * firefox
 * pavucontrol
 * engrampa
+* mpv
+* gimp
 
 ### Wine support
 

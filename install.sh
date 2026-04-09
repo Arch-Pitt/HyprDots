@@ -66,7 +66,9 @@ echo "INSTALLING APPLICATIONS"
 sudo pacman -S --needed --noconfirm \
   firefox \
   pavucontrol \
-  engrampa
+  engrampa \
+  mpv \
+  gimp
 
 echo "INSTALLING WINE"
 sudo pacman -S --needed --noconfirm \
@@ -100,6 +102,7 @@ mkdir -p \
   ~/Templates \
   ~/Videos \
   ~/.themes \
+  ~/.icons \
   ~/.config \
   ~/Pictures
 
