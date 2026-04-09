@@ -67,7 +67,8 @@ sudo pacman -S --needed --noconfirm \
   firefox \
   pavucontrol \
   engrampa \
-  mpv
+  mpv \
+  libreoffice-fresh
 
 echo "INSTALLING WINE"
 sudo pacman -S --needed --noconfirm \

@@ -17,6 +17,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * **Yay** for AUR packages
 * Basic firewall and networking setup
 * **GameMode** for automatic performance and optimization during gaming sessions
+* **Libreoffice** for your daily tasks
 * Ready-to-use desktop environment
 
 ---
@@ -155,6 +156,7 @@ Installs:
 * pavucontrol
 * engrampa
 * mpv
+* libreoffice-fresh
 
 ### Wine support
 
