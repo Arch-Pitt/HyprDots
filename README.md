@@ -25,28 +25,24 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ### Workspace
 
-![Workspace](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/workspace.png)
-
-### Terminal
-
-![Terminal](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/terminal.png)
+![Workspace](https://github.com/Arch-Pitt/HyprDots/blob/38bae4c57a60f7e5eecdc722146bad1a098244b8/.ignore/workspace.png)
 
 ### Rofi
 
-![Rofi](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/rofi.png)
+![Rofi](https://github.com/Arch-Pitt/HyprDots/blob/38bae4c57a60f7e5eecdc722146bad1a098244b8/.ignore/rofi.png)
 
 ### Wallpicker
 
-![Wallpicker](https://github.com/Arch-Pitt/HyprDots/blob/5e03303055ec8bfe84b5b4ac847db9604bcc6fbb/.ignore/wallpicker.gif)
+![Wallpicker](https://github.com/Arch-Pitt/HyprDots/blob/38bae4c57a60f7e5eecdc722146bad1a098244b8/.ignore/wallpicker.gif)
 
 
 ### NWG Bar
 
-![NWG Bar](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/nwg-bar.png)
+![NWG Bar](https://github.com/Arch-Pitt/HyprDots/blob/38bae4c57a60f7e5eecdc722146bad1a098244b8/.ignore/nwg-bar.png)
 
 ### GTK Theme
 
-![GTK Theme](https://raw.githubusercontent.com/Arch-Pitt/HyprDots/0a137e7cb02a252665fc5e34a6af8588384f1ed4/.ignore/gtktheme.png)
+![GTK Theme](https://github.com/Arch-Pitt/HyprDots/blob/38bae4c57a60f7e5eecdc722146bad1a098244b8/.ignore/gtktheme.png)
 
 ---
 
