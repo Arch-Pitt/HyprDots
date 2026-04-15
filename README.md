@@ -8,14 +8,13 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ## Features
 
-* **Hyprland** Wayland compositor
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, and **rofi**
 * Wallpaper launcher with **rofi** and **awwww**
-* Minimal and clean UI/UX
+* **Orchis Grey Dark** GTK theme and **Kora Grey** icon theme for minimal UI
 * **Flatpak** with Flathub enabled
 * **Yay** for AUR packages
-* Basic firewall and networking setup
+* Basic firewall and networking setup with **UFW** and **networkmanager**
 * **GameMode** for automatic performance and optimization during gaming sessions
 * **Libreoffice** for your daily tasks
 * Ready-to-use desktop environment
@@ -241,7 +240,7 @@ Enables:
 
 ---
 
-### GameMode
+### Gamemode
 
 Run applications with improved performance using GameMode:
 
@@ -278,14 +277,16 @@ After the installation script finishes, you need to manually move the configurat
 
 - Move everything inside the `config` folder to `~/.config`
 - Move everything inside the `themes` folder to `~/.themes`
-- Move everything inside the `pictures` folder to your home directory (`~/`)
+- Move everything inside the `icons` folder to `~/.icons`
+- Move `Wallpapers` folder to your pictures directory (`~/Pictures`)
 
 You can do this with:
 
 ```bash
 cp -r config/* ~/.config/
 cp -r themes/* ~/.themes/
-cp -r pictures/* ~/
+cp -r icons/* ~/.icons/
+cp -r Wallpapers ~/Pictures/
 ```
 
 Before using the wallpaper launcher, ensure the script has execute permissions.
@@ -315,3 +316,4 @@ chmod +x ~/.config/rofi/wallpicker.sh
 
 * This setup assumes a **clean Arch installation**
 * Feel free to modify the script to fit your needs
+
