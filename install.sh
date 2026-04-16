@@ -68,7 +68,8 @@ sudo pacman -S --needed --noconfirm \
   pavucontrol \
   engrampa \
   mpv \
-  libreoffice-fresh
+  libreoffice-fresh \
+  gnome-calculator
 
 echo "INSTALLING WINE"
 sudo pacman -S --needed --noconfirm \
