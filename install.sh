@@ -52,6 +52,8 @@ sudo pacman -S --needed --noconfirm \
   btop \
   gvfs \
   gvfs-mtp \
+  gvfs-afc \
+  usbutils \
   android-udev \
   gamemode
 
