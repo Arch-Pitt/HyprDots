@@ -12,7 +12,6 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * Preconfigured **kitty**, **waybar**, and **rofi**
 * Wallpaper launcher with **rofi** and **awwww**
 * **Orchis Grey Dark** GTK theme and **Kora Grey** icon theme for minimal UI
-* **Flatpak** with Flathub enabled
 * **Yay** for AUR packages
 * Basic firewall and networking setup with **UFW** and **networkmanager**
 * **GameMode** for automatic performance and optimization during gaming sessions
@@ -164,11 +163,6 @@ Installs:
 * wine-gecko
 * wine-mono
 * winetricks
-
-### Flatpak
-
-* Installs Flatpak
-* Adds Flathub repository
 
 ### AUR
 

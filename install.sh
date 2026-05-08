@@ -80,12 +80,6 @@ sudo pacman -S --needed --noconfirm \
   wine-mono \
   winetricks
 
-echo "INSTALLING FLATPAK"
-sudo pacman -S --needed --noconfirm flatpak
-
-echo "ADDING FLATHUB REPOSITORY"
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
 echo "INSTALLING YAY (AUR HELPER)"
 
 git clone https://aur.archlinux.org/yay.git
