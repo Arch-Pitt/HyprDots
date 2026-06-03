@@ -1,5 +1,4 @@
 # HyprDots
-
 Personal dotfiles for a minimal, clean, and functional Hyprland setup on Arch Linux.
 
 This repository provides a ready-to-use Wayland environment with a focus on simplicity and usability, requiring minimal manual configuration.
@@ -7,7 +6,6 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ---
 
 ## Features
-
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, and **rofi**
 * Wallpaper launcher with **rofi** and **awwww**
@@ -46,7 +44,6 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ---
 
 ## Installation
-
 > ⚠️ This setup is intended for **Arch Linux or Arch-based distributions only**
 
 Install dependencies:
@@ -74,11 +71,9 @@ chmod +x install.sh
 ## What the install script does
 
 ### System update
-
 * Updates all system packages using `pacman`
 
 ### Fonts
-
 Installs:
 
 * ttf-dejavu
@@ -87,7 +82,6 @@ Installs:
 * ttf-jetbrains-mono-nerd
 
 ### Media support
-
 Installs:
 
 * gst-libav
@@ -97,7 +91,6 @@ Installs:
 * gstreamer
 
 ### Hyprland ecosystem
-
 Installs:
 
 * hyprland
@@ -113,14 +106,12 @@ Installs:
 * dunst
 
 ### Portals
-
 Installs:
 
 * xdg-desktop-portal
 * xdg-desktop-portal-hyprland
 
 ### System utilities
-
 Installs:
 
 * fastfetch
@@ -137,7 +128,6 @@ Installs:
 * gamemode
 
 ### Network and system
-
 Installs and enables:
 
 * NetworkManager
@@ -145,7 +135,6 @@ Installs and enables:
 * polkit-gnome
 
 ### Applications
-
 Installs:
 
 * firefox
@@ -156,7 +145,6 @@ Installs:
 * gnome-calculator
 
 ### Wine support
-
 Installs:
 
 * wine
@@ -165,11 +153,9 @@ Installs:
 * winetricks
 
 ### AUR
-
 * Installs yay
 
 ### User directories
-
 Creates:
 
 ```
@@ -185,7 +171,6 @@ Creates:
 ```
 
 ### Services
-
 Enables:
 
 * NetworkManager
@@ -194,11 +179,9 @@ Enables:
 ---
 
 ## Keybindings
-
 > Main modifier: `SUPER` (Windows key)
 
 ### General
-
 | Key | Action |
 |-----|--------|
 | SUPER + Q | Open terminal |
@@ -215,7 +198,6 @@ Enables:
 ---
 
 ### Window Management
-
 | Key | Action |
 |-----|--------|
 | SUPER + ←/→/↑/↓ | Move focus |
@@ -225,7 +207,6 @@ Enables:
 ---
 
 ### Workspaces
-
 | Key | Action |
 |-----|--------|
 | SUPER + 1-0 | Switch workspace |
@@ -234,7 +215,6 @@ Enables:
 ---
 
 ### Gamemode
-
 Run applications with improved performance using GameMode:
 
 ```bash
@@ -265,7 +245,6 @@ This will automatically run the game with GameMode enabled.
 ---
 
 ## Post-installation
-
 After the installation script finishes, you need to manually move the configuration files to the correct directories.
 
 - Move everything inside the `config` folder to `~/.config`
@@ -291,7 +270,6 @@ chmod +x ~/.config/rofi/wallpicker.sh
 ---
 
 ## Final Steps
-
 1. Reboot the system:
    ```bash
    sudo reboot
@@ -306,7 +284,6 @@ chmod +x ~/.config/rofi/wallpicker.sh
 ---
 
 ## Notes
-
-* This setup assumes a **clean Arch installation**
+* This setup assumes a **clean Arch installation**, so some things may be missing, such as GPU drivers
 * Feel free to modify the script to fit your needs
 
