@@ -99,7 +99,8 @@ mkdir -p \
   ~/.themes \
   ~/.icons \
   ~/.config \
-  ~/Pictures
+  ~/Pictures \
+  ~/Projects
 
 echo "ENABLING SERVICES"
 sudo systemctl enable NetworkManager
