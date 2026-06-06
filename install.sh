@@ -2,17 +2,17 @@
 
 set -e
 
-echo "SYSTEM UPDATE"
+echo "System update"
 sudo pacman -Syu --noconfirm
 
-echo "INSTALLING FONTS"
+echo "Installing fonts"
 sudo pacman -S --needed --noconfirm \
   ttf-dejavu \
   noto-fonts \
   noto-fonts-emoji \
   ttf-jetbrains-mono-nerd
 
-echo "INSTALLING MEDIA"
+echo "Installing media codecs"
 sudo pacman -S --needed --noconfirm \
   gst-libav \
   gst-plugins-bad \
@@ -20,7 +20,7 @@ sudo pacman -S --needed --noconfirm \
   ffmpeg \
   gstreamer
 
-echo "INSTALLING HYPRLAND ECOSYSTEM"
+echo "Installing Hyprland ecosystem"
 sudo pacman -S --needed --noconfirm \
   hyprland \
   kitty \
@@ -32,14 +32,11 @@ sudo pacman -S --needed --noconfirm \
   hyprshot \
   hyprlock \
   hypridle \
-  dunst
-
-echo "INSTALLING PORTALS"
-sudo pacman -S --needed --noconfirm \
+  dunst \
   xdg-desktop-portal \
   xdg-desktop-portal-hyprland
 
-echo "INSTALLING SYSTEM UTILITIES"
+echo "Installing system utilities"
 sudo pacman -S --needed --noconfirm \
   fastfetch \
   vim \
@@ -48,39 +45,34 @@ sudo pacman -S --needed --noconfirm \
   unrar \
   zip \
   p7zip \
-  nemo \
+  nemo-fileroller \
   btop \
   gvfs \
   gvfs-mtp \
   gvfs-afc \
   usbutils \
   android-udev \
-  gamemode
-
-echo "INSTALLING NETWORK / SYSTEM"
-sudo pacman -S --needed --noconfirm \
+  gamemode \
   networkmanager \
   network-manager-applet \
   ufw \
   polkit-gnome \
-
-echo "INSTALLING APPLICATIONS"
-sudo pacman -S --needed --noconfirm \
-  firefox \
-  pavucontrol \
-  engrampa \
-  mpv \
-  libreoffice-fresh \
-  gnome-calculator
-
-echo "INSTALLING WINE"
-sudo pacman -S --needed --noconfirm \
   wine \
   wine-gecko \
   wine-mono \
   winetricks
 
-echo "INSTALLING YAY (AUR HELPER)"
+echo "Installing applications"
+sudo pacman -S --needed --noconfirm \
+  firefox \
+  pavucontrol \
+  mpv \
+  libreoffice-fresh \
+  gnome-calculator \
+  nemo \
+  file-roller
+
+echo "Installing YAY"
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -89,7 +81,7 @@ makepkg -si --noconfirm
 
 cd ~
 
-echo "CREATING USER DIRECTORIES"
+echo "Creating user directories"
 mkdir -p \
   ~/Documents \
   ~/Downloads \
@@ -102,7 +94,7 @@ mkdir -p \
   ~/Pictures \
   ~/Projects
 
-echo "ENABLING SERVICES"
+echo "Enabling services"
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 
@@ -112,4 +104,4 @@ sudo systemctl start ufw
 systemctl --user daemon-reexec
 systemctl --user enable --now gamemoded
 
-echo "DEPENDENCIES ARE INSTALLED. PLEASE FOLLOW THE POST-INSTALLATION STEPS TO COMPLETE THE SETUP"
+echo "Dependencies are installed. Please follow the post-installation steps to complete the setup"

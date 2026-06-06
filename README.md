@@ -139,7 +139,8 @@ Installs:
 
 * firefox
 * pavucontrol
-* engrampa
+* file-roller
+* nemo-fileroller
 * mpv
 * libreoffice-fresh
 * gnome-calculator
