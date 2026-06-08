@@ -19,7 +19,12 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ---
 
 ## Preview
-Comming soon.
+
+#### Desktop
+
+#### GTK and Terminal
+
+#### Rofi
 
 ---
 
