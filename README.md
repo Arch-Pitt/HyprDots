@@ -21,10 +21,13 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ## Preview
 
 #### Desktop
+![](.ignore/desktop.png)
 
 #### GTK and Terminal
+![](.ignore/gtkandterminal.png)
 
 #### Rofi
+![](.ignore/rofi.png)
 
 ---
 
